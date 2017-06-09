@@ -1,0 +1,61 @@
+---
+-
+  branch: v3.6
+  arch: x86
+  version: 3.6.1
+  flavor: alpine-minirootfs
+  file: alpine-minirootfs-3.6.1-x86.tar.gz
+  iso: alpine-minirootfs-3.6.1-x86.tar.gz
+  date: 2017-06-01
+  time: 19:21:47
+  size: 1986427
+  sha256: f2d1feebca1a374ef5f7108d60f6dc5aa60df95208906d670f31564be9e02893
+  sha512: 139e3730a1d100ea7be0b54da853cf94c721fbc6b08b442d8368e9a8ef06adf84a7f41f364388106fdf38b2c5bf7943a32f10f1bc3aa08bfdd428201bd55dcc2
+-
+  branch: v3.6
+  arch: x86
+  version: 3.6.1
+  flavor: alpine-standard
+  file: alpine-standard-3.6.1-x86.iso
+  iso: alpine-standard-3.6.1-x86.iso
+  date: 2017-06-01
+  time: 19:22:10
+  size: 83886080
+  sha256: 786d9a5e4ad85f629f4bd4b999c0b9f7b4f84a4b97d9cefee59f05dac6fd0eb9
+  sha512: cedbeb89194d38869c6e90396c5d7c3607ec57484b910ad7cee36cc4b8abfc39142dd952d92a6800bf6a2d31e26f80e6718d246283ec6935c52828ffca5b61f2
+-
+  branch: v3.6
+  arch: x86
+  version: 3.6.1
+  flavor: alpine-vanilla
+  file: alpine-vanilla-3.6.1-x86.iso
+  iso: alpine-vanilla-3.6.1-x86.iso
+  date: 2017-06-01
+  time: 19:22:38
+  size: 85983232
+  sha256: 5bc09c5f90167ad16ad7c3d56f878a942d67adb17aa417d7f209bfc7a1d08bdc
+  sha512: 044245a4c7139afc9d886168d6a4204282ce58353a0764a4b562aa26a895638610a5cdf443a566262b8f44b0ee80c9fb0128bc5b347bab4b60f43cb1c7666aa6
+-
+  branch: v3.6
+  arch: x86
+  version: 3.6.1
+  flavor: alpine-extended
+  file: alpine-extended-3.6.1-x86.iso
+  iso: alpine-extended-3.6.1-x86.iso
+  date: 2017-06-01
+  time: 19:23:06
+  size: 288358400
+  sha256: a6c6958b4c5fbed04a83e3d2a072313a08fb53668e7441117a28867a25404208
+  sha512: 0b40e2d075599f97f459c3741c6793ea242403ac1f9fefd8adb59ae8e1fc157bb9cffcaf52dff8005096fd479b375d0d548a62ffd246253028b81f046e92cc43
+-
+  branch: v3.6
+  arch: x86
+  version: 3.6.1
+  flavor: alpine-virt
+  file: alpine-virt-3.6.1-x86.iso
+  iso: alpine-virt-3.6.1-x86.iso
+  date: 2017-06-01
+  time: 19:23:27
+  size: 26214400
+  sha256: 9c2d556bee2193f4b1461bc26fd286bfdadbf47b6c732baeb53b0022ce501497
+  sha512: d5733ea37be3cb979296ebc013bd28c4982569307a50849441cf1a112a2c9fb7561ae9890b73b72b7029e1aeb99cd79d439a48264742e9c443ed1fd5ec54986b

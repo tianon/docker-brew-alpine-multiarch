@@ -1,0 +1,25 @@
+---
+-
+  branch: v3.6
+  arch: aarch64
+  version: 3.6.1
+  flavor: alpine-uboot
+  file: alpine-uboot-3.6.1-aarch64.tar.gz
+  iso: alpine-uboot-3.6.1-aarch64.tar.gz
+  date: 2017-06-01
+  time: 19:23:33
+  size: 91947263
+  sha256: 4aad6cd73a17433e86f4495ca495373815bcea94f596aa59a52db2959bdf4668
+  sha512: c402c1d956ce279afa3d8ca07e81ef2818375577156a5beda1799cce698a795823ff00c91999072d79c40d71e16ff776699a912b39dfd607a280006ef3522e0a
+-
+  branch: v3.6
+  arch: aarch64
+  version: 3.6.1
+  flavor: alpine-minirootfs
+  file: alpine-minirootfs-3.6.1-aarch64.tar.gz
+  iso: alpine-minirootfs-3.6.1-aarch64.tar.gz
+  date: 2017-06-01
+  time: 19:23:39
+  size: 1857427
+  sha256: 4e6c2bc2d989524cf6c801061486efe14e428609b2eaf558a465ff0ce0d0aef3
+  sha512: 3c742a0e70dfb9597cb52620a712a498b3f994074c6c2b32cefec65a5252e9f23fb10f403178ceea3f037c8e8809a5b15df7b1201f42927501c4f7a2f6d82942

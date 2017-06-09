@@ -1,0 +1,37 @@
+---
+-
+  branch: v3.6
+  arch: armhf
+  version: 3.6.1
+  flavor: alpine-rpi
+  file: alpine-rpi-3.6.1-armhf.tar.gz
+  iso: alpine-rpi-3.6.1-armhf.tar.gz
+  date: 2017-06-01
+  time: 19:22:39
+  size: 68214840
+  sha256: a8ec270ffb20aabd551fc8fe0a95bebefd6e3491a2b78ca92a59f0c3ed7d63da
+  sha512: 7a94eb58a5a7788e09346a4b8ddcb4b7b6ddada12148b65441a65b0b7197e9cebd913e8843791cc6cb207123cfb04ae1b30286b864b6fcace30747fb3218a32a
+-
+  branch: v3.6
+  arch: armhf
+  version: 3.6.1
+  flavor: alpine-uboot
+  file: alpine-uboot-3.6.1-armhf.tar.gz
+  iso: alpine-uboot-3.6.1-armhf.tar.gz
+  date: 2017-06-01
+  time: 19:23:21
+  size: 46702496
+  sha256: 3cea829f2ee38641735d6bf83337a2fde288031369ddd2d42f3024a880035200
+  sha512: 5d14f6cce22116b70076fef9f56b2adc23bd57db760c8c814c6bb38487727914738a752d1b527e51988c836b1819d04eeeb6ae89b23410d764122e276036e41b
+-
+  branch: v3.6
+  arch: armhf
+  version: 3.6.1
+  flavor: alpine-minirootfs
+  file: alpine-minirootfs-3.6.1-armhf.tar.gz
+  iso: alpine-minirootfs-3.6.1-armhf.tar.gz
+  date: 2017-06-01
+  time: 19:23:27
+  size: 1900867
+  sha256: c42024b3165e7a9e70618a2eaf6ed0c2ca6f359328edf089c1bb069734fe401d
+  sha512: 6ea1364db52f085e7b86e303135385669344c13ffe3d5c08306d1b535bde2de74867865dd69c5bd3250b20ac2ed815ed042b5e4a026cc3b4ee75716b9887a7e2

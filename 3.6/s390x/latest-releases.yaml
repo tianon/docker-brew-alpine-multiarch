@@ -1,0 +1,13 @@
+---
+-
+  branch: v3.6
+  arch: s390x
+  version: 3.6.1
+  flavor: alpine-minirootfs
+  file: alpine-minirootfs-3.6.1-s390x.tar.gz
+  iso: alpine-minirootfs-3.6.1-s390x.tar.gz
+  date: 2017-06-01
+  time: 19:21:58
+  size: 2059029
+  sha256: 3a9248546f979b1f47ee194b6413b7e0796fd0f0f313e1e05d33ff8797630c25
+  sha512: 795cdf7c8118ee5a958cc40be3d6b7b9947a2443e177cf08e80b4f3fabc515109a059611f253da05099c6236169d5f00e1518ad0ea275c18fe209f48fda9c5e1

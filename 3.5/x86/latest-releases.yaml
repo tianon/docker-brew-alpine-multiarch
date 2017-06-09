@@ -1,0 +1,61 @@
+---
+-
+  branch: v3.5
+  arch: x86
+  version: 3.5.2
+  flavor: alpine-minirootfs
+  file: alpine-minirootfs-3.5.2-x86.tar.gz
+  iso: alpine-minirootfs-3.5.2-x86.tar.gz
+  date: 2017-03-02
+  time: 20:18:00
+  size: 1958989
+  sha256: 9623f9118befaf1f2408ae58fe1165184df11aa72378d65c4af4de0b2e0060ad
+  sha512: 82f80dd23caf4d09d7c93d864609fe612cf8553456bdc28d33e85aa380d06dc5fe0cd344198fbdd625cc78bbe5b9f294da6d06a99bcb5bcd1ca22b5081e96498
+-
+  branch: v3.5
+  arch: x86
+  version: 3.5.2
+  flavor: alpine-standard
+  file: alpine-standard-3.5.2-x86.iso
+  iso: alpine-standard-3.5.2-x86.iso
+  date: 2017-03-02
+  time: 20:18:23
+  size: 78643200
+  sha256: 19d7911a58bfd0c542ac3856911e84aa2d47f4c524b7b6a2743ee248b72decaf
+  sha512: dd5ed5d30780f1f1ceb9a1a7b46d8ddca56de5813a4dc8ca64cb3ec968e6b710d64541985099dde5b99049fcbd8912887aa346ba01fa9512b6f3bbda7797b682
+-
+  branch: v3.5
+  arch: x86
+  version: 3.5.2
+  flavor: alpine-vanilla
+  file: alpine-vanilla-3.5.2-x86.iso
+  iso: alpine-vanilla-3.5.2-x86.iso
+  date: 2017-03-02
+  time: 20:18:49
+  size: 79691776
+  sha256: 0fc5b9946f23e1e03f2a5b5a1a4bd9a20d8189a4107858dcfb52c9f1187376b5
+  sha512: 502351a6bf12693b7c68ad4f00bbf49c14e75da6380e41d29e4823781d6979aa947b8150e1a20a4c5f52a053685f69c975026a9a611052da98a376ea3dfd0118
+-
+  branch: v3.5
+  arch: x86
+  version: 3.5.2
+  flavor: alpine-extended
+  file: alpine-extended-3.5.2-x86.iso
+  iso: alpine-extended-3.5.2-x86.iso
+  date: 2017-03-02
+  time: 20:19:16
+  size: 256901120
+  sha256: 1d483b2d9fcfbbce9b7361783765a8c0ca102e6700de29580b129e6be7ecf551
+  sha512: b6526d51ec72db9cd15586cda83049fa9239db6b1061c2e3ccf0e4e72587e5edc6d12ed49fc9edb4355d3703c1d63e41fb6a15ca95251843c61495ce44ff8ce5
+-
+  branch: v3.5
+  arch: x86
+  version: 3.5.2
+  flavor: alpine-virt
+  file: alpine-virt-3.5.2-x86.iso
+  iso: alpine-virt-3.5.2-x86.iso
+  date: 2017-03-02
+  time: 20:19:33
+  size: 25165824
+  sha256: 88d16ed5a67b0e8f72c79d226bf46f127aec4ddef1a255c1d10d9ff2ced3fd69
+  sha512: b3de901cfce838138f68dc0d361116d7ac752683ac8d032eed1342924ce3a6284bd3c3a37218a5a5e1bb7abf74a8ec0f8ea08aec7d1b470163021db82d2e8efc

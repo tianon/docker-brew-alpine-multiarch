@@ -1,0 +1,73 @@
+---
+-
+  branch: v3.5
+  arch: x86_64
+  version: 3.5.2
+  flavor: alpine-minirootfs
+  file: alpine-minirootfs-3.5.2-x86_64.tar.gz
+  iso: alpine-minirootfs-3.5.2-x86_64.tar.gz
+  date: 2017-03-02
+  time: 20:17:59
+  size: 1906481
+  sha256: 3ea31671888a364de43316f22c9ef9a0e37cba363e1c858d12f92e9af7f80662
+  sha512: e0acc62a33a601fcc961169db1840193c0ba281370626678b21f0dbc90cc344dd4fe3db07d2366793c8b042cad8eb44b8bb1d2bbe6e3ddcec9262950065f698d
+-
+  branch: v3.5
+  arch: x86_64
+  version: 3.5.2
+  flavor: alpine-standard
+  file: alpine-standard-3.5.2-x86_64.iso
+  iso: alpine-standard-3.5.2-x86_64.iso
+  date: 2017-03-02
+  time: 20:18:23
+  size: 81788928
+  sha256: c955c26431c877527024d94d1ba6495b87fddac186df16c404f7b15ea61f443b
+  sha512: d8d6032eec713424258d0ef3a937f0eb360bb7afb195e3c657a9b217d4494278432b8e81d3c02c329e62791af2f76bc928e451737d826695048595385356e2e2
+-
+  branch: v3.5
+  arch: x86_64
+  version: 3.5.2
+  flavor: alpine-vanilla
+  file: alpine-vanilla-3.5.2-x86_64.iso
+  iso: alpine-vanilla-3.5.2-x86_64.iso
+  date: 2017-03-02
+  time: 20:18:49
+  size: 82837504
+  sha256: f311a5de9528dd28c021fe2df0b8dd7df2f9de0b3e167d8d2a4f760b99234692
+  sha512: bb4099431fe6a69b31cca0312783fd0729e43c85094a11d0706c7a4e2a80e50d3ae0083792b049c1efb5b5bfda0ae19cf5b1cab758de002845ce821ae3ba55ff
+-
+  branch: v3.5
+  arch: x86_64
+  version: 3.5.2
+  flavor: alpine-extended
+  file: alpine-extended-3.5.2-x86_64.iso
+  iso: alpine-extended-3.5.2-x86_64.iso
+  date: 2017-03-02
+  time: 20:19:16
+  size: 261095424
+  sha256: f5d2d5dc518c070a3b34e0787386744326177c1d61717bedf52e780e7b549954
+  sha512: 5e0a3d75604f9fc8290f1303be1fccf18f93f13db9bbe1d2b0422936f1f71c4c996cd8d8a45b9d3f00dee71c5aefb84d846166ce117380338580179d74b79f43
+-
+  branch: v3.5
+  arch: x86_64
+  version: 3.5.2
+  flavor: alpine-virt
+  file: alpine-virt-3.5.2-x86_64.iso
+  iso: alpine-virt-3.5.2-x86_64.iso
+  date: 2017-03-02
+  time: 20:19:30
+  size: 26214400
+  sha256: 2258ca975d7b829ea6229d314b2782d4070ec9b7f688392817e562f5a14a34b5
+  sha512: ae0501d54d4084c48c8463225174b7f52d8b8d4059725ccbb6f0960f417438138308ce1268d0337a8250f3fbeea3e7450df677cfe1e117af50bca09c8c591b5c
+-
+  branch: v3.5
+  arch: x86_64
+  version: 3.5.2
+  flavor: alpine-xen
+  file: alpine-xen-3.5.2-x86_64.iso
+  iso: alpine-xen-3.5.2-x86_64.iso
+  date: 2017-03-02
+  time: 20:19:31
+  size: 138412032
+  sha256: c657898955e01299e716d120e8e1ff48eebc153d5cd7c5f5ef56e81371ac43b9
+  sha512: c54f461bef08e3c7f462fbf34561f891cfc34a21eea7a350eb417c0d6271c7a7a44c732d6a4760e456f42f6f6d18b86fa9470c01487021dae4e7e70610170cad
