@@ -1,61 +1,86 @@
 ---
 -
+  title: "Mini root filesystem"
+  desc: |
+    Minimal root filesystem.
+    For use in containers
+    and minimal chroots.
   branch: v3.6
   arch: x86
-  version: 3.6.1
+  version: 3.6.2
   flavor: alpine-minirootfs
-  file: alpine-minirootfs-3.6.1-x86.tar.gz
-  iso: alpine-minirootfs-3.6.1-x86.tar.gz
-  date: 2017-06-01
-  time: 19:21:47
-  size: 1986427
-  sha256: f2d1feebca1a374ef5f7108d60f6dc5aa60df95208906d670f31564be9e02893
-  sha512: 139e3730a1d100ea7be0b54da853cf94c721fbc6b08b442d8368e9a8ef06adf84a7f41f364388106fdf38b2c5bf7943a32f10f1bc3aa08bfdd428201bd55dcc2
+  file: alpine-minirootfs-3.6.2-x86.tar.gz
+  iso: alpine-minirootfs-3.6.2-x86.tar.gz
+  date: 2017-06-17
+  time: 09:46:43
+  size: 1986332
+  sha256: 12c54e61c52af1866c97d9e5bf892c3c3f357152ec099339f8780c46933394e8
+  sha512: 592262ed8a15c7e6c93945744c24b8f9cdee652c19c8b4a33a8a914735d81940d7c5f53397204d71d9875c79281b6ec983e6b045273b04601865fa7578cd4895
 -
+  title: "Standard"
+  desc: |
+    Alpine as it was intended.
+    Just enough to get you started.
+    Network connection is required.
   branch: v3.6
   arch: x86
-  version: 3.6.1
+  version: 3.6.2
   flavor: alpine-standard
-  file: alpine-standard-3.6.1-x86.iso
-  iso: alpine-standard-3.6.1-x86.iso
-  date: 2017-06-01
-  time: 19:22:10
+  file: alpine-standard-3.6.2-x86.iso
+  iso: alpine-standard-3.6.2-x86.iso
+  date: 2017-06-17
+  time: 09:47:12
   size: 83886080
-  sha256: 786d9a5e4ad85f629f4bd4b999c0b9f7b4f84a4b97d9cefee59f05dac6fd0eb9
-  sha512: cedbeb89194d38869c6e90396c5d7c3607ec57484b910ad7cee36cc4b8abfc39142dd952d92a6800bf6a2d31e26f80e6718d246283ec6935c52828ffca5b61f2
+  sha256: 4fde90389a1c90ceb9fa4562fbc05ae1035c22aeed6acda12f042c622689c471
+  sha512: 3cd92ec24a4326026cbe572e831dcb8aa78e6371d7c0fa61e5a1e3e035d44742fc1aec17979107825ab66569731835314812160c1d2db85f3a27accf5cbc656b
 -
+  title: "Vanilla"
+  desc: |
+    Includes a vanilla kernel.
+    Does not include grsec patch set.
+    Suitable for debugging.
   branch: v3.6
   arch: x86
-  version: 3.6.1
+  version: 3.6.2
   flavor: alpine-vanilla
-  file: alpine-vanilla-3.6.1-x86.iso
-  iso: alpine-vanilla-3.6.1-x86.iso
-  date: 2017-06-01
-  time: 19:22:38
+  file: alpine-vanilla-3.6.2-x86.iso
+  iso: alpine-vanilla-3.6.2-x86.iso
+  date: 2017-06-17
+  time: 09:47:40
   size: 85983232
-  sha256: 5bc09c5f90167ad16ad7c3d56f878a942d67adb17aa417d7f209bfc7a1d08bdc
-  sha512: 044245a4c7139afc9d886168d6a4204282ce58353a0764a4b562aa26a895638610a5cdf443a566262b8f44b0ee80c9fb0128bc5b347bab4b60f43cb1c7666aa6
+  sha256: 99e73ac66aed96fcb3ec7ff218fbebefcf70b01e1580e90d8c20d0abe2211849
+  sha512: 230aa5b4d5355113ae4a78a298ed0a3b539289ef98c9e3057fa5158dddac5610fc35b333b6eaaa972ebb2e87ab4428c4af572e9e5ebd74b807a7f2ad62e971ea
 -
+  title: "Extended"
+  desc: |
+    Most common used packages included.
+    Suitable for routers and servers.
+    Runs from RAM.
   branch: v3.6
   arch: x86
-  version: 3.6.1
+  version: 3.6.2
   flavor: alpine-extended
-  file: alpine-extended-3.6.1-x86.iso
-  iso: alpine-extended-3.6.1-x86.iso
-  date: 2017-06-01
-  time: 19:23:06
+  file: alpine-extended-3.6.2-x86.iso
+  iso: alpine-extended-3.6.2-x86.iso
+  date: 2017-06-17
+  time: 09:48:10
   size: 288358400
-  sha256: a6c6958b4c5fbed04a83e3d2a072313a08fb53668e7441117a28867a25404208
-  sha512: 0b40e2d075599f97f459c3741c6793ea242403ac1f9fefd8adb59ae8e1fc157bb9cffcaf52dff8005096fd479b375d0d548a62ffd246253028b81f046e92cc43
+  sha256: 86d21012d77d632fd7ac9ab0a0040ae05bfeca145738775b97c642fc3eadce85
+  sha512: 5b2f91f839aa9d893f584f1658f56f2324dd9cdb4c49aa12414706337dbaac5c42156ce7ec96eb29f921f20f0df52ed8807e9ea799a453d6282887bd31759b75
 -
+  title: "Virtual"
+  desc: |
+    Similar to standard.
+    Slimmed down kernel.
+    Optimized for virtual systems.
   branch: v3.6
   arch: x86
-  version: 3.6.1
+  version: 3.6.2
   flavor: alpine-virt
-  file: alpine-virt-3.6.1-x86.iso
-  iso: alpine-virt-3.6.1-x86.iso
-  date: 2017-06-01
-  time: 19:23:27
+  file: alpine-virt-3.6.2-x86.iso
+  iso: alpine-virt-3.6.2-x86.iso
+  date: 2017-06-17
+  time: 09:48:30
   size: 26214400
-  sha256: 9c2d556bee2193f4b1461bc26fd286bfdadbf47b6c732baeb53b0022ce501497
-  sha512: d5733ea37be3cb979296ebc013bd28c4982569307a50849441cf1a112a2c9fb7561ae9890b73b72b7029e1aeb99cd79d439a48264742e9c443ed1fd5ec54986b
+  sha256: 73b9c59b206b8f42e7b084f9fbcf08c205ace5777d196eeac16fa45a038abb53
+  sha512: 89115b40992e7c767e0625bc62c1d7b6ad359bac7a385f1029206b0d4328382bdceb376118393153236043506dfe8d4eb2357b92f6eb6aa8a2dfd36c8cfe5e42

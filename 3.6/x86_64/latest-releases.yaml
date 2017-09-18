@@ -1,73 +1,103 @@
 ---
 -
+  title: "Mini root filesystem"
+  desc: |
+    Minimal root filesystem.
+    For use in containers
+    and minimal chroots.
   branch: v3.6
   arch: x86_64
-  version: 3.6.1
+  version: 3.6.2
   flavor: alpine-minirootfs
-  file: alpine-minirootfs-3.6.1-x86_64.tar.gz
-  iso: alpine-minirootfs-3.6.1-x86_64.tar.gz
-  date: 2017-06-01
-  time: 19:21:47
-  size: 1923998
-  sha256: 31d63b139341a1c969a81c0cab82e9642cc6c892878b5903cc8047db1313fc73
-  sha512: b24b6a8c22302f95277cad3a81a620490349882152e49bbb46f82d726f9dc3f55705e6f1c5ccec67c468463488e593e07e4d68c18d0e4c8d2c0877718e1a4b45
+  file: alpine-minirootfs-3.6.2-x86_64.tar.gz
+  iso: alpine-minirootfs-3.6.2-x86_64.tar.gz
+  date: 2017-06-17
+  time: 09:46:50
+  size: 1923988
+  sha256: df4bf81fdafdc72b32ad455c23901935fdfe5815993612ba7a2df4bae79d97ca
+  sha512: 36c7617d7593749ef2a525f6a5da46db8486a84b44cf561d8dcda06cabb061aa6fc73aa33c96c2ccebcd7b0943325377b6152c91c338bebf1d3596cb6d0f94c6
 -
+  title: "Standard"
+  desc: |
+    Alpine as it was intended.
+    Just enough to get you started.
+    Network connection is required.
   branch: v3.6
   arch: x86_64
-  version: 3.6.1
+  version: 3.6.2
   flavor: alpine-standard
-  file: alpine-standard-3.6.1-x86_64.iso
-  iso: alpine-standard-3.6.1-x86_64.iso
-  date: 2017-06-01
-  time: 19:22:21
+  file: alpine-standard-3.6.2-x86_64.iso
+  iso: alpine-standard-3.6.2-x86_64.iso
+  date: 2017-06-17
+  time: 09:47:27
   size: 111149056
-  sha256: 01b1b1adf16e5e34182c33a1e8f16925c7ae9c6d834c43f53900577c5775cab6
-  sha512: 508b81c6c98d5e72cf979da9a505871a840b8d62a22638aff2a5911b0f0cecaa9a03eec401d9435836aec71fe71175e1b044d38090125f5bf133f17aee27b575
+  sha256: ddf8b91cc0d2b1c110f26607d410e5c951eedff9c60d6eb05d220b87c1970840
+  sha512: a2ccdfc1fe608c085e1178c8b1e6bdb76146bc77cd202e4ad9a8f4651c941e524a6dc16823c75840c40fc5bc2e2ccfc658333b35175a5c7a2be368ee04723c53
 -
+  title: "Vanilla"
+  desc: |
+    Includes a vanilla kernel.
+    Does not include grsec patch set.
+    Suitable for debugging.
   branch: v3.6
   arch: x86_64
-  version: 3.6.1
+  version: 3.6.2
   flavor: alpine-vanilla
-  file: alpine-vanilla-3.6.1-x86_64.iso
-  iso: alpine-vanilla-3.6.1-x86_64.iso
-  date: 2017-06-01
-  time: 19:22:54
+  file: alpine-vanilla-3.6.2-x86_64.iso
+  iso: alpine-vanilla-3.6.2-x86_64.iso
+  date: 2017-06-17
+  time: 09:47:55
   size: 89128960
-  sha256: a12d80e3fad54193376772824b91794b41678e5481baebae3532104a096bff1d
-  sha512: dd42190c70e7967ba99d95123a7bb3acacca703ebc505d8388380c940d0f49112ea26cf8c5a7fb780be2def1ed4221e1a31446a4c5d5ea58a8d65c98aac353fd
+  sha256: 953c53ce63e85c783a67536dc0b6c74cacf42a5df3a01946ab58091739895234
+  sha512: 2e47d8cb3b2dee2c10b8796ce395fb9314a30605d89f1804de5508ab372be93360b25d2a933d3b7cb649502cf79f8ebb65af4d82b70cc609deda2d95163faf53
 -
+  title: "Extended"
+  desc: |
+    Most common used packages included.
+    Suitable for routers and servers.
+    Runs from RAM.
   branch: v3.6
   arch: x86_64
-  version: 3.6.1
+  version: 3.6.2
   flavor: alpine-extended
-  file: alpine-extended-3.6.1-x86_64.iso
-  iso: alpine-extended-3.6.1-x86_64.iso
-  date: 2017-06-01
-  time: 19:23:36
-  size: 344981504
-  sha256: ed4cc4c70757ebe54570a174ff2c31df16ab69011b8ed49a2dd71d239f7a20fd
-  sha512: 97ee537870af7fd8fefd752dbeda0435b029bce37c837f130565e543e58e75265b347f338fc7aa51d0058563f3ac4100e82bc9f042aeb37ea5f43e0228cd46d2
+  file: alpine-extended-3.6.2-x86_64.iso
+  iso: alpine-extended-3.6.2-x86_64.iso
+  date: 2017-06-17
+  time: 09:48:39
+  size: 346030080
+  sha256: 875f6e580b2ae4412c5a2386bec3b8ee24fae14141de5ce2227355866baa756d
+  sha512: df91da04fb448b26032ebfb8d860b45c733250859f6dfcdcac1ba526041a44699e3fee914109a77fb691c0303c09108748972e8e942efaeec5dadf7fac7c27f8
 -
+  title: "Virtual"
+  desc: |
+    Similar to standard.
+    Slimmed down kernel.
+    Optimized for virtual systems.
   branch: v3.6
   arch: x86_64
-  version: 3.6.1
+  version: 3.6.2
   flavor: alpine-virt
-  file: alpine-virt-3.6.1-x86_64.iso
-  iso: alpine-virt-3.6.1-x86_64.iso
-  date: 2017-06-01
-  time: 19:23:54
+  file: alpine-virt-3.6.2-x86_64.iso
+  iso: alpine-virt-3.6.2-x86_64.iso
+  date: 2017-06-17
+  time: 09:48:58
   size: 35651584
-  sha256: f4421357ed2c969046b95cef6fc4844aeebfe8a2323049915dbe953d5f1d3c36
-  sha512: 2e8c03dc8960883971be00ca8d0ba5581b874e8e1e2298f880e727701dea819bb884ce2e98cb3b471c3740a92e8903d73943b4178eaefff554c384d3690c9c38
+  sha256: 92c80e151143da155fb99611ed8f0f3672fba4de228a85eb5f53bcb261bf4b0a
+  sha512: 57f8a1edfd55be8b77e02f2c2e8d1cd5b8804318ce67ef5812c21eaf7cb375d333cedfaa2d9a8eb4668a094a2fe5f269d2313ce3b9d7965792c0535e6eb9af40
 -
+  title: "Xen"
+  desc: |
+    Build-in support for Xen Hypervisor.
+    Includes packages targed at Xen usage.
+    Includes grsec kernel.
   branch: v3.6
   arch: x86_64
-  version: 3.6.1
+  version: 3.6.2
   flavor: alpine-xen
-  file: alpine-xen-3.6.1-x86_64.iso
-  iso: alpine-xen-3.6.1-x86_64.iso
-  date: 2017-06-01
-  time: 19:23:56
+  file: alpine-xen-3.6.2-x86_64.iso
+  iso: alpine-xen-3.6.2-x86_64.iso
+  date: 2017-06-17
+  time: 09:48:59
   size: 163577856
-  sha256: 1f17f3d770fad1c5c5b694e8ff91d69e56ca4a38ac9c963cb44924f004438d9b
-  sha512: fb28a78c18e4516ce2224132f7390fa4943d478a973af21d43527ec8e24a42d41790c40879dd938c23f8b0a870c0666e56926ebd73a4ff7f74a4097204017981
+  sha256: d01be69387a7261a0f2e04562574405a06b097fb09dad791586c9cc9eb421594
+  sha512: 2bbf97565a1681b63119435553200b5b7045bbf06631c6691cbc9d6971245f2708c3000452095fac098c5de0b3736b5380bc724d2c4057efa3f02d26afd1f0a9

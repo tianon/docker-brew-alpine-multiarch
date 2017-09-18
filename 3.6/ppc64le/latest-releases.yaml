@@ -1,25 +1,35 @@
 ---
 -
+  title: "Mini root filesystem"
+  desc: |
+    Minimal root filesystem.
+    For use in containers
+    and minimal chroots.
   branch: v3.6
   arch: ppc64le
-  version: 3.6.1
+  version: 3.6.2
   flavor: alpine-minirootfs
-  file: alpine-minirootfs-3.6.1-ppc64le.tar.gz
-  iso: alpine-minirootfs-3.6.1-ppc64le.tar.gz
-  date: 2017-06-01
-  time: 19:22:10
-  size: 1953852
-  sha256: 1f0b83ff1ffe4cd8eb01bea593ae0a9476445f8c6900be9b338959b4f4c41396
-  sha512: a4bfccadfbff81ce8857859edf262623e22fc387b99e6862ce9df937efc3b104d16dc309e688fd4406475d237c4b03a3744d46c483f892a8f3b77a7fba47a0cf
+  file: alpine-minirootfs-3.6.2-ppc64le.tar.gz
+  iso: alpine-minirootfs-3.6.2-ppc64le.tar.gz
+  date: 2017-06-17
+  time: 09:45:11
+  size: 1953584
+  sha256: 352aedba378cdc72e34416d90b5bf3c40a06da295683a757b2ab12fd1ef7fe6c
+  sha512: 7ba5205f370ca38f5823f5e6ada35629fac22a608abdaa9b602191b49c8999f00f9743aab41a6208abb10cb8777cb5888eee2d3595bd8050aaf8a6db78e0f0c7
 -
+  title: "Vanilla"
+  desc: |
+    Includes a vanilla kernel.
+    Does not include grsec patch set.
+    Suitable for debugging.
   branch: v3.6
   arch: ppc64le
-  version: 3.6.1
+  version: 3.6.2
   flavor: alpine-vanilla
-  file: alpine-vanilla-3.6.1-ppc64le.iso
-  iso: alpine-vanilla-3.6.1-ppc64le.iso
-  date: 2017-06-01
-  time: 19:22:22
-  size: 47927296
-  sha256: fdbb485831e4d44c059344f4b1f65c3b3abc8aa49ef8d1f754a3839e8ab9160f
-  sha512: e95b0af0055da04588967c026084ee24ed64d2952eb73554786640ca2427b101af76db3484480a9fab9ab4b5f538fa4c99fe400205302d8db96250faf7c7826e
+  file: alpine-vanilla-3.6.2-ppc64le.iso
+  iso: alpine-vanilla-3.6.2-ppc64le.iso
+  date: 2017-06-17
+  time: 09:45:22
+  size: 47931392
+  sha256: c506fceb5df1cc40336007fcb6149cbe97625a801b15d4d6378bc3baf2235a4d
+  sha512: 6984e24c26fa76576fd6766cfe9ce5fa26212564e9f655aa942d1cf5bae86400b16b02bf5a5bae49d0452f96590f646776e95e5a75291c01f9e65ba0022a3a5a

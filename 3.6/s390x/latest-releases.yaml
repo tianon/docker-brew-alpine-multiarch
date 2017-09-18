@@ -1,13 +1,18 @@
 ---
 -
+  title: "Mini root filesystem"
+  desc: |
+    Minimal root filesystem.
+    For use in containers
+    and minimal chroots.
   branch: v3.6
   arch: s390x
-  version: 3.6.1
+  version: 3.6.2
   flavor: alpine-minirootfs
-  file: alpine-minirootfs-3.6.1-s390x.tar.gz
-  iso: alpine-minirootfs-3.6.1-s390x.tar.gz
-  date: 2017-06-01
-  time: 19:21:58
-  size: 2059029
-  sha256: 3a9248546f979b1f47ee194b6413b7e0796fd0f0f313e1e05d33ff8797630c25
-  sha512: 795cdf7c8118ee5a958cc40be3d6b7b9947a2443e177cf08e80b4f3fabc515109a059611f253da05099c6236169d5f00e1518ad0ea275c18fe209f48fda9c5e1
+  file: alpine-minirootfs-3.6.2-s390x.tar.gz
+  iso: alpine-minirootfs-3.6.2-s390x.tar.gz
+  date: 2017-06-17
+  time: 09:46:13
+  size: 2059216
+  sha256: 0af569c04a1f954340a0ac396b933719325232507297689da988f312f21f24bb
+  sha512: 5f3c8a4ff3df0790c94d771404b22c3913713e73f26590bf30fa59dea0754305a4fd0d864ba341f8441b20bfcd998faa22a1a2dc03ce252f3efd4cc0894ab46e
