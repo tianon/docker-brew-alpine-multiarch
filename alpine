@@ -2,7 +2,7 @@
 
 Maintainers: Tianon <tianon@dockerproject.org> (@tianon)
 GitRepo: https://github.com/tianon/docker-brew-alpine-multiarch.git
-GitCommit: b5eb36e6deccd724e7ff150f68017c4646135186
+GitCommit: 4390e8f08589da4be0f2788ae0affd1affd01b49
 
 Tags: 3.6.2, 3.6, latest
 Architectures: amd64, arm32v6, arm64v8, i386, ppc64le, s390x
@@ -19,3 +19,11 @@ amd64-Directory: 3.5/x86_64
 arm32v6-Directory: 3.5/armhf
 arm64v8-Directory: 3.5/aarch64
 i386-Directory: 3.5/x86
+
+Tags: edge
+Architectures: amd64, arm32v6, arm64v8, i386, ppc64le
+amd64-Directory: edge/x86_64
+arm32v6-Directory: edge/armhf
+arm64v8-Directory: edge/aarch64
+i386-Directory: edge/x86
+ppc64le-Directory: edge/ppc64le
