@@ -1,0 +1,25 @@
+---
+-
+  branch: v3.6
+  arch: ppc64le
+  version: 3.6.0
+  flavor: alpine-minirootfs
+  file: alpine-minirootfs-3.6.0-ppc64le.tar.gz
+  iso: alpine-minirootfs-3.6.0-ppc64le.tar.gz
+  date: 2017-05-24
+  time: 17:52:41
+  size: 1953085
+  sha256: 0af484235a472fb396a5d2bfe89521481314e79f36a4c4194fb46aed3491f6e0
+  sha512: ef99923dfff2c32b4ee921635826765008fb37cec7b6851f99b35effe47437f18aced1a9b8bcacd8190019a77525b0a0fb3333162e6449b1944e7e51434796d5
+-
+  branch: v3.6
+  arch: ppc64le
+  version: 3.6.0
+  flavor: alpine-vanilla
+  file: alpine-vanilla-3.6.0-ppc64le.iso
+  iso: alpine-vanilla-3.6.0-ppc64le.iso
+  date: 2017-05-24
+  time: 17:52:55
+  size: 47937536
+  sha256: 79cbc2dd9d1a9c10a9413f3ec4c56b45a8b3a02a13e6b34b8b8bd39b5260e07e
+  sha512: 4a4d0451c4e9ff6d873bb73e566a69601f862e98106ea5363aad01fa4ae867e314299ebb9319d541cf67fc8b9ee3c9f94f2072e21e5e421f2a9bc6429734b32f

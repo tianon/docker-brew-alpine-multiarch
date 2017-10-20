@@ -1,0 +1,73 @@
+---
+-
+  branch: v3.6
+  arch: x86_64
+  version: 3.6.0
+  flavor: alpine-minirootfs
+  file: alpine-minirootfs-3.6.0-x86_64.tar.gz
+  iso: alpine-minirootfs-3.6.0-x86_64.tar.gz
+  date: 2017-05-24
+  time: 17:52:01
+  size: 1923882
+  sha256: 1b5e45a6e97c187622d52e849314fecff192e06fe054c47e30de161674d0da22
+  sha512: 09c3e49e9cc861c300e207ec8a23f2a1b9d92fc97c8a6a6eb4ef3ea86db798936d7fbac7ae6705ef4924f5a07409155e5d4cb8d9360958971b0b3843858542a1
+-
+  branch: v3.6
+  arch: x86_64
+  version: 3.6.0
+  flavor: alpine-standard
+  file: alpine-standard-3.6.0-x86_64.iso
+  iso: alpine-standard-3.6.0-x86_64.iso
+  date: 2017-05-24
+  time: 17:52:48
+  size: 111149056
+  sha256: 84f9b18fde8ba0b4cbe22c8be871d9e4ef471e25b87c41e9a37edd52fbbdb9f3
+  sha512: f27e5e650d27c19ed29f6e0c25fb5cf738f2df471cb8189c70eb7bdd812dcd62dc3696c68001b24389968fea6bee8eee3c6b5ccc7ea455bf17beb978f217c5f4
+-
+  branch: v3.6
+  arch: x86_64
+  version: 3.6.0
+  flavor: alpine-vanilla
+  file: alpine-vanilla-3.6.0-x86_64.iso
+  iso: alpine-vanilla-3.6.0-x86_64.iso
+  date: 2017-05-24
+  time: 17:53:22
+  size: 89128960
+  sha256: c00a78d7380f513b3a135aef1e47ac8e1b1973330ba111edbb5250c0310338ff
+  sha512: 929335f7adb84e637aaf23863a176ce918e874a964cd1ebee28cf293788839ffbb5ec585450e57e3c7f6d1f60190ab74731a401666f6c1c6d3d69fa85326c43d
+-
+  branch: v3.6
+  arch: x86_64
+  version: 3.6.0
+  flavor: alpine-extended
+  file: alpine-extended-3.6.0-x86_64.iso
+  iso: alpine-extended-3.6.0-x86_64.iso
+  date: 2017-05-24
+  time: 17:54:12
+  size: 348127232
+  sha256: 935e0558aa38d5d4fa09b2c11f50ccfb22bc44d21d6f70e4a2f144cfcaebda74
+  sha512: 457a983b5b4e9f24dbae7022a3d66b120cd3f044ff7426b821b84765183070a0ac0a2f9e75d8bba69219a18e20451cf0305254b1109ee791937d5dbeeac5c2ab
+-
+  branch: v3.6
+  arch: x86_64
+  version: 3.6.0
+  flavor: alpine-virt
+  file: alpine-virt-3.6.0-x86_64.iso
+  iso: alpine-virt-3.6.0-x86_64.iso
+  date: 2017-05-24
+  time: 17:54:32
+  size: 35651584
+  sha256: 357bbcdbfe3c075366512477b2706c4d582d16a35a411a97de690294c439a8f8
+  sha512: c043028d6b6cde1bb8809b9676fde89ae0c50feff4eabc71d5cc6a56d53c46c626d3f595460d2a6d24a3f48b3976c2a74216fe03d8dc1746fd8a4e41c0b91bcf
+-
+  branch: v3.6
+  arch: x86_64
+  version: 3.6.0
+  flavor: alpine-xen
+  file: alpine-xen-3.6.0-x86_64.iso
+  iso: alpine-xen-3.6.0-x86_64.iso
+  date: 2017-05-24
+  time: 17:54:33
+  size: 166723584
+  sha256: 55ab3519509e9b4d03c7a9eb1cdd2d60e5b4e8b9c1876b3a7abfbb0bdeea108d
+  sha512: 782b2ccb3ef4ae828a18adfd8a477f2a5235b550dfb2800579392a751b7b7b7b215e35472548e6adf1e0c8894c55edd3fe65dd4456669887e381e78cbbc16107

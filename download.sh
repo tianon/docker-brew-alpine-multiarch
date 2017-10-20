@@ -17,10 +17,11 @@ for arch in \
 	x86_64 \
 ; do
 	mkdir -p "$version/$arch"
-	if wget -qO "$version/$arch/latest-releases.yaml" "http://dl-cdn.alpinelinux.org/alpine/v${version}/releases/$arch/latest-releases.yaml"; then
-		minirootfs="$(grep -E --only-matching "alpine-minirootfs-$version([.][^-]+)?-$arch.tar.gz" "$version/$arch/latest-releases.yaml" | head -1)"
+	[ "$version" = 'edge' ] && urlVersion="$version" || urlVersion="v$version"
+	if wget -qO "$version/$arch/latest-releases.yaml" "http://dl-cdn.alpinelinux.org/alpine/$urlVersion/releases/$arch/latest-releases.yaml"; then
+		minirootfs="$(grep -E --only-matching "alpine-minirootfs-([^-]+)?-$arch.tar.gz" "$version/$arch/latest-releases.yaml" | head -1)"
 		if [ -n "$minirootfs" ]; then
-			if wget -qO "$version/$arch/$minirootfs" "http://dl-cdn.alpinelinux.org/alpine/v${version}/releases/$arch/$minirootfs"; then
+			if wget -qO "$version/$arch/$minirootfs" "http://dl-cdn.alpinelinux.org/alpine/$urlVersion/releases/$arch/$minirootfs"; then
 				cat > "$version/$arch/Dockerfile" <<-EODF
 					FROM scratch
 					ADD $minirootfs /
